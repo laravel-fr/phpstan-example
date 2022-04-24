@@ -1,0 +1,12 @@
+{
+    "name": "laravel-france/phpstan-example",
+    "description": "Découverte de l'outil PHPStan.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "LaravelFrance\\PhpstanExample\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
