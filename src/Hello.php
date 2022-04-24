@@ -4,8 +4,12 @@ namespace LaravelFrance\PhpstanExample;
 
 class Hello
 {
-    public function say(string $name): bool
+    public function say(string $name): string
     {
-        return "$name say Hello to the world";
+        if (is_string($name)) {
+            return "$name say Hello to the world";
+        }
+
+        return "name is not a string";
     }
 }
